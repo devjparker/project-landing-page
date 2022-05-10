@@ -1,0 +1,25 @@
+body {
+    display:flex;
+    flex-direction:column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.information {
+    display: flex;
+}
+
+.quotespace {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
