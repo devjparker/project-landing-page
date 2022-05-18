@@ -65,7 +65,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.header-button {
     width: 200px;
     height: 30px;
     color:#E5E7EB;
@@ -153,6 +153,52 @@ button {
 .signature {
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.call-to-action {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.call-left {
+    display:flex;
+    flex-flow: wrap;
+}
+
+.call-title {
+    font-size: 24px;
+}
+
+.call-subtext {
+    font-size: 18px;
+}
+
+.call-button {
+    width: 200px;
+    height: 30px;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    margin-left: 100px;
 }
 
 .footer {
