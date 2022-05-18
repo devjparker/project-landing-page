@@ -82,16 +82,42 @@ button {
     align-items: center;
 }
 
-
 .information {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
     display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+}
+
+.four-images {
+    border-style:solid;
+    border-radius: 8px;
+    border-color: #3882F6;
 }
 
 .quotespace {
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
 }
 
 .footer {
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     margin-top: auto;
     background-color: #1F2937;
